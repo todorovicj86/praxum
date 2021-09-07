@@ -1,0 +1,62 @@
+{
+  "name": "praxum",
+  "version": "1.0.0",
+  "description": "psychology webiste",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fix-styles": "prettier-stylelint --write 'src/**/*.{css,scss}' ",
+    "start": "gulp default"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/todorovicj86/praxum.git"
+  },
+  "keywords": [
+    "psihologija",
+    "psiholog"
+  ],
+  "author": "Jelena Todorovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/todorovicj86/praxum/issues"
+  },
+  "homepage": "https://github.com/todorovicj86/praxum#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.4",
+    "autoprefixer": "^10.3.4",
+    "browser-sync": "^2.27.5",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-iconfont": "^11.0.0",
+    "gulp-iconfont-css": "^3.0.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.0.0",
+    "postcss": "^8.3.0",
+    "prettier": "^2.3.2",
+    "prettier-stylelint": "^0.4.2",
+    "sass": "^1.39.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-scss": "^3.20.1",
+    "swiper": "^3.4.2",
+    "underscore": "^1.8.3"
+  },
+  "dependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/standalone": "^7.14.6",
+    "browser-sync": "^2.26.14",
+    "core-js": "^3.15.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-consolidate": "^0.2.0",
+    "gulp-scss-lint": "^1.0.0",
+    "gulp-stylelint": "^13.0.0",
+    "gulp-uglify-es": "^2.0.0"
+  }
+}

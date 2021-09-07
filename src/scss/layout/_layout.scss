@@ -1,0 +1,59 @@
+@import '../settings/variables';
+
+.container {
+    max-width: 1410px;
+    width: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.section {
+    height: 100%;
+    padding: 50px;
+    background-color: $cream;
+    border-bottom: 1px solid $black;
+}
+
+.section-about {
+    text-align: center;
+}
+
+.section-row {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+.section-col {
+    width: 50%;
+    flex: 1 1 50%;
+}
+
+.section-col--bg {
+    background-image: url('../img/image-1.png');
+}
+
+.section-info {
+    background-color: $cream;
+}
+
+.section-info__content {
+    flex: 1 1 66.66667%;
+    width: 66.66667%;
+    color: $green-dark;
+}
+
+.section-info__aside {
+    flex: 1 1 calc(100% - 66.66667%);
+    width: calc(100% - 66.66667%);
+    background-image: url('../img/image-1.png');
+}
+
+.section-col--bg,
+.section-info__aside {
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,15 @@
+.image-gallery {
+    height: 155px;
+    display: flex;
+    margin: 25px 0;
+}
+
+.image-gallery__col {
+    flex: 1 1 calc(100% / 4);
+    width: calc(100% / 4);
+}
+
+.image-gallery__img {
+    width: 100%;
+    height: 100%;
+}
