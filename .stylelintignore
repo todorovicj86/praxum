@@ -1,6 +1,6 @@
 **/*.js
-vendor/**/*.css
 **/_iconfont.scss
 **/iconfont.scss
 **/_reset.scss
 **/style.scss
+**/gitignore
